@@ -1,4 +1,4 @@
 # Project Cicada
 Team 3
 
-This is a RTS game developed in Unity for our project in PBP.
+This is a cyberpunk battle royale game developed in Unity Pro.

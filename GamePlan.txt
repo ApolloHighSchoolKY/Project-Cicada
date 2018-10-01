@@ -1,0 +1,110 @@
+Battle Royale Game Ideas:
+Aesthetic/theme: Cyberpunk
+Predominant colors: 
+	black
+	Grey
+	Neon lights/signs
+
+“Storm” mechanic- “Random” area sweep: military drones swarm area/auto-turrets spawn(extremely high DPS), area gated off after all “resistance” cleared
+
+Arena concepts:
+	Arena 1: metropolis cityscape(ex. Blade Runner/Ghost in the Shell)
+	Arena 2: undercity slums
+	Arena 3: megapolis
+	Arena 4: futuristic dystopian military compound
+	Arena 5: Randomly generated city scape
+		Unique in that the map is generated at game start
+		Never have to play same map again
+
+Armor aesthetic:
+	“Techwear”
+	Trench coats
+	Parkas
+	Extra pockets/zippers on everything
+	“Tacticool”
+	Bionic upgrades
+Shielding:
+	Acts as a pseudo health bar
+	Most damage is directed at shield first
+Types:
+	Low tier- Kinetic shield(only stops bullets/melee)
+	Mid  tier- energy shield (also stops energy burst)
+	High tier- better energy shield (stops all non piercing attacks)
+
+Weapons aesthetic: futuristic guns/energy weapons
+	low tier- “slug thrower”(bullets)
+		Manual reload
+	Mid tier- energy burst guns (replaces bullets with plasma)
+		Gun overheats
+		Eventually has to reload
+	High tier- continuous fire laser
+		Never has to be reloaded
+		Still capable of overheating
+	“Legendary” tier
+		Unique items
+		No more than one of each per game round
+			Ex. If legendary A drops, no more of them will, but legendary B could still drop
+		Stronger than normal weapons
+		Doesn't necessarily follow the tier damage type rule(laser>burst>bullet)
+
+Weapon classes: Low/Mid/High tier weapons randomly generated (Borderlands)
+	Pistol
+	Assault rifle
+	Rifle
+	Shotgun
+	Sniper
+	Rocket Launcher
+
+Weapons characteristics:
+	Bullets
+		Neutral damage to flesh
+		Decreased damage to shield
+		Decreased damage to robotics
+	Energy burst
+		Increased damage to shields
+		Neutral to flesh
+		Causes dot to flesh
+		Neutral to robotics
+	Continuous beam
+		Damage increases the longer the target has be consecutively hit by beam
+		Gun stops firing/target moves out of beam, damage resets
+		DoT to flesh
+	Grenades:
+		Frag grenade
+		Sticky grenade
+		DoT field
+
+Character design:
+	Character customization
+	Basic classes
+		“Hacker”
+			Can hijack deactivate turrets/abandoned military supplies
+			Open locked doors
+		Stealth
+			Self explanatory
+		DPS
+			Self explanatory
+		Tank
+			Self explanatory
+
+Class powers: neat abilities based on you class, level up by defeating enemies
+	Stealth: active camo(invisible)
+		Increased duration based on level
+	“Hacker”: Hijack enemy mobs, open locked doors
+		High level “hacks” faster
+	DPS: Temporary increases in DPS
+		Increased DPS buff/duration based on level
+	Tank: heal
+		Amount based on level
+		Higher level recovers more health quickly
+
+Gimmick game type: battle royale + “Zombies” game type.
+	Zones never get gated off. 
+	Instead, zone is swarmed with respawning killable AI enemies(military mechs/drones, auto-turrets). 
+	Enemies start with low dps/HP, increases as time goes on. 
+	Eventually forces players into central zone
+	Game ends when all players dead. 
+	Winner is player with most points
+	Points awarded based off of order of elimination, and kills(other players and AI)
+
+
