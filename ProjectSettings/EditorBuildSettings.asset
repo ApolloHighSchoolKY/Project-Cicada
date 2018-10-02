@@ -5,16 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Menu.unity
-    guid: b2a59a5c5f6c9834185afb737d5bf43e
-  - enabled: 1
-    path: Assets/Seizure Cube.unity
-    guid: b7ebb779a5f4b2848bbc28e82040d442
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
