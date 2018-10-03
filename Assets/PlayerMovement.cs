@@ -26,9 +26,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //Checks to see if player is pushisng "shift" to enable sprint
         // you can use the ternary operator in this case
-        speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
-        jumpSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintJumpSpeed : walkJumpSpeed;
+        speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed; //changes walk speed
+        jumpSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintJumpSpeed : walkJumpSpeed; //changes jump speed
     }
     // Update is called once per frame
     void FixedUpdate()
