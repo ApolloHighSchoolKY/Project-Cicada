@@ -9,6 +9,7 @@ public class EscapeMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //If esc is pressed, return to menu screen
         if (Input.GetKeyDown(KeyCode.Escape))
             SceneManager.LoadScene(0);
     }
