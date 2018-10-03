@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 6.0F;
-    public float jumpSpeed = 8.0F;
+    public float speed;
+    public float jumpSpeed;
+
+    public float walkSpeed = 4f;
+    public float sprintSpeed = 8f;
+    public float walkJumpSpeed = 8.0f;
+    public float sprintJumpSpeed = 12.0f;
+
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
     private float turner;
@@ -18,8 +24,14 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        // you can use the ternary operator in this case
+        speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+        jumpSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintJumpSpeed : walkJumpSpeed;
+    }
+    // Update is called once per frame
+    void FixedUpdate()
     {
         CharacterController controller = GetComponent<CharacterController>();
         // is the controller on the ground?
