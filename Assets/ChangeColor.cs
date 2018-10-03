@@ -17,7 +17,7 @@ public class ChangeColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Sets variable to random vaule between 0 and 255
+        //Sets variables to a random vaule between 0 and 255
         rndR = (byte)Random.Range(0, 255);
         rndG = (byte)Random.Range(0, 255);
         rndB = (byte)Random.Range(0, 255);
