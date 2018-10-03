@@ -12,7 +12,7 @@ public class Rotate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{	
-		//Causes object to violently rotate
+		//Causes object to randomly rotate
 		rb.transform.Rotate(Random.Range(0, 5), Random.Range(0, 5), Random.Range(0, 5));
 	}
 }
