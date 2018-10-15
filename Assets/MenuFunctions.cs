@@ -13,7 +13,9 @@ public class MenuFunctions : MonoBehaviour
 
     public void PlayGame()
     {   //Moves from menu to game
+        Debug.Log("This is working");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
     public void Options()

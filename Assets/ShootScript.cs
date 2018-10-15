@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootScript : MonoBehaviour {
 
-    float bulletTime = 0f;
+    //float bulletTime = 0f;
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     float refire = 0f;
@@ -23,7 +23,7 @@ public class ShootScript : MonoBehaviour {
             Destroy(bullet, 2.0f);
 
             canFire = false;
-            while (refire < 50)
+            while (refire < 100)
             {
                 refire += Time.deltaTime;
             }
