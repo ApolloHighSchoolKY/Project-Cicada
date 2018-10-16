@@ -14,6 +14,7 @@ public class MenuFunctions : MonoBehaviour
     public void PlayGame()
     {   //Moves from menu to game
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
     public void Options()
