@@ -9,6 +9,7 @@ public class ShootScript : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     public float cooldownTime;
+    public int bulletSpeed;
     float cooldown;
     public int maxAmmo;
     int ammo;
@@ -40,7 +41,7 @@ public class ShootScript : MonoBehaviour
     {
         cooldown = 0;
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
-        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 15;
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
 
         Destroy(bullet, 2.0f);
 
