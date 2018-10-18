@@ -2,33 +2,47 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootScript : MonoBehaviour {
+public class ShootScript : MonoBehaviour
+{
 
     //float bulletTime = 0f;
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
-    float refire = 0f;
-    bool canFire = true;
+    public float cooldownTime;
+    float cooldown;
+    public int maxAmmo;
+    int ammo;
 
 
     // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        if (Input.GetMouseButton(1) && canFire)
-        {
-
-            var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
-            bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 15;
-
-            Destroy(bullet, 2.0f);
-
-            canFire = false;
-            while (refire < 100)
-            {
-                refire += Time.deltaTime;
-            }
-            canFire = true;
-        }
+        ammo = maxAmmo;
+        cooldown = cooldownTime;
     }
 
+    void Update()
+    {
+        if (Input.GetMouseButton(1) && cooldown > cooldownTime && ammo > 0)
+        {
+            Fire();
+            ammo--;
+        }
+        else if (ammo == 0 && cooldown > cooldownTime)
+        {
+            ammo = maxAmmo;
+            cooldown = -1f;
+        }
+        cooldown += Time.deltaTime;
+    }
+
+    void Fire()
+    {
+        cooldown = 0;
+        var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 15;
+
+        Destroy(bullet, 2.0f);
+
+    }
 }
