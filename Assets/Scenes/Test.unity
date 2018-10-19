@@ -725,7 +725,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 23250161958521006, guid: 8a5823162c7af84468a1cbbf79636e30,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7213aad8316c4794dcee9abd7cc80, type: 2}
+    m_RemovedComponents:
+    - {fileID: 114340813746510614, guid: 8a5823162c7af84468a1cbbf79636e30, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 8a5823162c7af84468a1cbbf79636e30, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1151784386 stripped
@@ -766,7 +772,6 @@ GameObject:
   - component: {fileID: 1192236593}
   - component: {fileID: 1192236594}
   - component: {fileID: 1192236591}
-  - component: {fileID: 1192236595}
   - component: {fileID: 1192236596}
   m_Layer: 0
   m_Name: Sphere
@@ -919,23 +924,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1192236595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1192236585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c061c4152c70a3409aa8b1fb33a3a91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1312650802153772, guid: bfae346f4e78cad46880b7da30a9f68e,
-    type: 2}
-  bulletSpawn: {fileID: 883071892}
-  cooldownTime: 0.2
-  bulletSpeed: 15
-  maxAmmo: 5
 --- !u!114 &1192236596
 MonoBehaviour:
   m_ObjectHideFlags: 0

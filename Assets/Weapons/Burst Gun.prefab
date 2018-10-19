@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 33287144273323486}
   - component: {fileID: 23250161958521006}
   - component: {fileID: 136012007209158254}
+  - component: {fileID: 114340813746510614}
   m_Layer: 0
   m_Name: Burst Gun
-  m_TagString: Bullet
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b8e7213aad8316c4794dcee9abd7cc80, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,6 +85,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1265649304874622}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114340813746510614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265649304874622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c061c4152c70a3409aa8b1fb33a3a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1312650802153772, guid: bfae346f4e78cad46880b7da30a9f68e,
+    type: 2}
+  bulletSpawn: {fileID: 0}
+  cooldownTime: 0.2
+  bulletSpeed: 15
+  maxAmmo: 5
 --- !u!136 &136012007209158254
 CapsuleCollider:
   m_ObjectHideFlags: 1
