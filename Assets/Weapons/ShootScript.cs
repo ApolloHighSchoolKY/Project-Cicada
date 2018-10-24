@@ -14,7 +14,6 @@ public class ShootScript : MonoBehaviour
     public int maxAmmo;
     int ammo;
 
-
     // Update is called once per frame
     private void Awake()
     {
@@ -25,14 +24,14 @@ public class ShootScript : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButton(1) && cooldown > cooldownTime && ammo > 0)
-        {
-            Fire();
-            ammo--;
-        }
+            {
+                Fire();
+                ammo--;
+            }
         else if (ammo == 0 && cooldown > cooldownTime)
-        {
-            ammo = maxAmmo;
-            cooldown = -1f;
+            {
+                ammo = maxAmmo;
+                cooldown = -1f;
         }
         cooldown += Time.deltaTime;
     }
