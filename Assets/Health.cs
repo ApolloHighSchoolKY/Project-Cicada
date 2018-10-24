@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
             life -= 1;
         else if (other.gameObject.name == "RB(Clone)")
             life -= 5;
-        if (life == 0)
+        if (life <= 0)
             self.SetActive(false);
         other.gameObject.SetActive(false);
     }   
