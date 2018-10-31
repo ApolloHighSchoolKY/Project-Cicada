@@ -28,16 +28,19 @@ public class PickUp : MonoBehaviour
             pickUp.transform.parent = player.transform;
             pickUp.GetComponent<Rigidbody>().useGravity = false;
 
+
             currentlyHeld.GetComponent<CapsuleCollider>().enabled = true;
             currentlyHeld.GetComponent<MeshCollider>().enabled = true;
             currentlyHeld.GetComponent<ShootScript>().enabled = false;
             currentlyHeld.transform.parent = null;
             currentlyHeld.GetComponent<Rigidbody>().useGravity = true;
 
+            pickUp.transform.rotation = currentlyHeld.transform.rotation;
             pickUp.transform.position = currentlyHeld.transform.position;
             currentlyHeld.transform.position = swap;
 
             currentlyHeld = pickUp;
+
 
         }
     }

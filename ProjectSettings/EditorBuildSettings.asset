@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
+    path: Assets/Scenes/Test.unity
+    guid: 3cb82c5f6f85b4a4d9c823934d224284
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: b2a59a5c5f6c9834185afb737d5bf43e
   - enabled: 1
-    path: Assets/Test.unity
-    guid: 3cb82c5f6f85b4a4d9c823934d224284
+    path: Assets/Scenes/Test Map.unity
+    guid: d2d48a1a544fe734fa425220088634e7
+  - enabled: 0
+    path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost on desert.unity
+    guid: b42ca4c5c936383429d2318c931f7ad2
+  - enabled: 0
+    path: Assets/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity
+    guid: e8cf1d29775c7e24f9dd35148a6437c0
   m_configObjects: {}
