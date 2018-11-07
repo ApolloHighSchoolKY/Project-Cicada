@@ -6,14 +6,17 @@ public class Respawn : MonoBehaviour {
     public GameObject self;
     public int startingLife;
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         startingLife = GetComponent<Health>().life;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         if (Input.GetKeyDown(KeyCode.R))
-        {   GetComponent<Health>().life = startingLife;
+        {
+            self.GetComponent<Health>().life = startingLife;
             self.SetActive(true);
         }
     }
