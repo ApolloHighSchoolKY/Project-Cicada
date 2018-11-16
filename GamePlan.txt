@@ -1,3 +1,12 @@
+New Focus:
+
+	Devote more time to visuals and other asthetics
+	Create a nice GUI
+	Story
+	Potential Ping MOde?
+	Fix the Camera
+	Multiplayer implimeneted soon
+	
 Battle Royale Game Ideas:
 Aesthetic/theme: Cyberpunk
 Predominant colors: 
@@ -5,7 +14,7 @@ Predominant colors:
 	Grey
 	Neon lights/signs
 
-“Storm” mechanic- “Random” area sweep: military drones swarm area/auto-turrets spawn(extremely high DPS), area gated off after all “resistance” cleared
+â€œStormâ€ mechanic- â€œRandomâ€ area sweep: military drones swarm area/auto-turrets spawn(extremely high DPS), area gated off after all â€œresistanceâ€ cleared
 
 Arena concepts:
 	Arena 1: metropolis cityscape(ex. Blade Runner/Ghost in the Shell)
@@ -17,11 +26,11 @@ Arena concepts:
 		Never have to play same map again
 
 Armor aesthetic:
-	“Techwear”
+	â€œTechwearâ€
 	Trench coats
 	Parkas
 	Extra pockets/zippers on everything
-	“Tacticool”
+	â€œTacticoolâ€
 	Bionic upgrades
 Shielding:
 	Acts as a pseudo health bar
@@ -32,7 +41,7 @@ Types:
 	High tier- better energy shield (stops all non piercing attacks)
 
 Weapons aesthetic: futuristic guns/energy weapons
-	low tier- “slug thrower”(bullets)
+	low tier- â€œslug throwerâ€(bullets)
 		Manual reload
 	Mid tier- energy burst guns (replaces bullets with plasma)
 		Gun overheats
@@ -40,7 +49,7 @@ Weapons aesthetic: futuristic guns/energy weapons
 	High tier- continuous fire laser
 		Never has to be reloaded
 		Still capable of overheating
-	“Legendary” tier
+	â€œLegendaryâ€ tier
 		Unique items
 		No more than one of each per game round
 			Ex. If legendary A drops, no more of them will, but legendary B could still drop
@@ -77,7 +86,7 @@ Weapons characteristics:
 Character design:
 	Character customization
 	Basic classes
-		“Hacker”
+		â€œHackerâ€
 			Can hijack deactivate turrets/abandoned military supplies
 			Open locked doors
 		Stealth
@@ -90,15 +99,15 @@ Character design:
 Class powers: neat abilities based on you class, level up by defeating enemies
 	Stealth: active camo(invisible)
 		Increased duration based on level
-	“Hacker”: Hijack enemy mobs, open locked doors
-		High level “hacks” faster
+	â€œHackerâ€: Hijack enemy mobs, open locked doors
+		High level â€œhacksâ€ faster
 	DPS: Temporary increases in DPS
 		Increased DPS buff/duration based on level
 	Tank: heal
 		Amount based on level
 		Higher level recovers more health quickly
 
-Gimmick game type: battle royale + “Zombies” game type.
+Gimmick game type: battle royale + â€œZombiesâ€ game type.
 	Zones never get gated off. 
 	Instead, zone is swarmed with respawning killable AI enemies(military mechs/drones, auto-turrets). 
 	Enemies start with low dps/HP, increases as time goes on. 
