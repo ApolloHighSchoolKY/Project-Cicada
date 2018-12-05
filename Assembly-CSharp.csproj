@@ -187,6 +187,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEditor.StandardEvents">
+<<<<<<< HEAD
       <HintPath>C:/Users/Owner/Desktop/Project-Cicada/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -197,6 +198,18 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Owner/Desktop/Project-Cicada/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+=======
+      <HintPath>C:/Users/dehada06/Documents/Project Based Programming/Project Cicada/Project-Cicada/Project-Cicada/Project-Cicada/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/dehada06/Documents/Project Based Programming/Project Cicada/Project-Cicada/Project-Cicada/Project-Cicada/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/dehada06/Documents/Project Based Programming/Project Cicada/Project-Cicada/Project-Cicada/Project-Cicada/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/dehada06/Documents/Project Based Programming/Project Cicada/Project-Cicada/Project-Cicada/Project-Cicada/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+>>>>>>> parent of 6635375... Merge branch 'Nick_Dev' into Dev
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -378,9 +391,12 @@
     <Reference Include="Unity.Locator">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>C:/Users/Owner/Desktop/Project-Cicada/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
+=======
+>>>>>>> parent of 6635375... Merge branch 'Nick_Dev' into Dev
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
