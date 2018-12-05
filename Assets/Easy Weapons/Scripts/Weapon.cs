@@ -555,9 +555,9 @@ public class Weapon : MonoBehaviour
 		if (showCurrentAmmo)
 		{
 			if (type == WeaponType.Raycast || type == WeaponType.Projectile)
-				GUI.Label(new Rect(0, 30, 100, 20), "Ammo: " + currentAmmo);
+				GUI.Label(new Rect(10, Screen.height - 30, 100, 20), "Ammo: " + currentAmmo);
 			else if (type == WeaponType.Beam)
-				GUI.Label(new Rect(0, 30, 100, 20), "Heat: " + (int)(beamHeat * 100) + "/" + (int)(maxBeamHeat * 100));
+				GUI.Label(new Rect(10, Screen.height - 30, 100, 20), "Heat: " + (int)(beamHeat * 100) + "/" + (int)(maxBeamHeat * 100));
 		}
 	}
 
